@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6637F65E197C730000EF281E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637F65D197C72FF00EF281E /* Foundation.framework */; };
+		6637F660197C730000EF281E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637F65F197C730000EF281E /* CoreGraphics.framework */; };
+		6637F662197C730000EF281E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637F661197C730000EF281E /* UIKit.framework */; };
+		6637F668197C730000EF281E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6637F666197C730000EF281E /* InfoPlist.strings */; };
+		6637F66A197C730000EF281E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637F669197C730000EF281E /* main.m */; };
+		6637F66E197C730000EF281E /* HIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637F66D197C730000EF281E /* HIAppDelegate.m */; };
+		6637F671197C730000EF281E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6637F66F197C730000EF281E /* Main.storyboard */; };
+		6637F674197C730000EF281E /* HIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637F673197C730000EF281E /* HIViewController.m */; };
+		6637F676197C730000EF281E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6637F675197C730000EF281E /* Images.xcassets */; };
+		6637F67D197C730000EF281E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637F67C197C730000EF281E /* XCTest.framework */; };
+		6637F67E197C730000EF281E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637F65D197C72FF00EF281E /* Foundation.framework */; };
+		6637F67F197C730000EF281E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6637F661197C730000EF281E /* UIKit.framework */; };
+		6637F687197C730000EF281E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6637F685197C730000EF281E /* InfoPlist.strings */; };
+		6637F689197C730000EF281E /* HissetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637F688197C730000EF281E /* HissetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6637F680197C730000EF281E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6637F652197C72FF00EF281E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6637F659197C72FF00EF281E;
+			remoteInfo = Hisset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6637F65A197C72FF00EF281E /* Hisset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hisset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637F65D197C72FF00EF281E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6637F65F197C730000EF281E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6637F661197C730000EF281E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6637F665197C730000EF281E /* Hisset-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hisset-Info.plist"; sourceTree = "<group>"; };
+		6637F667197C730000EF281E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6637F669197C730000EF281E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6637F66B197C730000EF281E /* Hisset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hisset-Prefix.pch"; sourceTree = "<group>"; };
+		6637F66C197C730000EF281E /* HIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIAppDelegate.h; sourceTree = "<group>"; };
+		6637F66D197C730000EF281E /* HIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIAppDelegate.m; sourceTree = "<group>"; };
+		6637F670197C730000EF281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6637F672197C730000EF281E /* HIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIViewController.h; sourceTree = "<group>"; };
+		6637F673197C730000EF281E /* HIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIViewController.m; sourceTree = "<group>"; };
+		6637F675197C730000EF281E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6637F67B197C730000EF281E /* HissetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HissetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637F67C197C730000EF281E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6637F684197C730000EF281E /* HissetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HissetTests-Info.plist"; sourceTree = "<group>"; };
+		6637F686197C730000EF281E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6637F688197C730000EF281E /* HissetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HissetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6637F657197C72FF00EF281E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637F660197C730000EF281E /* CoreGraphics.framework in Frameworks */,
+				6637F662197C730000EF281E /* UIKit.framework in Frameworks */,
+				6637F65E197C730000EF281E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637F678197C730000EF281E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637F67D197C730000EF281E /* XCTest.framework in Frameworks */,
+				6637F67F197C730000EF281E /* UIKit.framework in Frameworks */,
+				6637F67E197C730000EF281E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6637F651197C72FF00EF281E = {
+			isa = PBXGroup;
+			children = (
+				6637F663197C730000EF281E /* Hisset */,
+				6637F682197C730000EF281E /* HissetTests */,
+				6637F65C197C72FF00EF281E /* Frameworks */,
+				6637F65B197C72FF00EF281E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6637F65B197C72FF00EF281E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6637F65A197C72FF00EF281E /* Hisset.app */,
+				6637F67B197C730000EF281E /* HissetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6637F65C197C72FF00EF281E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6637F65D197C72FF00EF281E /* Foundation.framework */,
+				6637F65F197C730000EF281E /* CoreGraphics.framework */,
+				6637F661197C730000EF281E /* UIKit.framework */,
+				6637F67C197C730000EF281E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6637F663197C730000EF281E /* Hisset */ = {
+			isa = PBXGroup;
+			children = (
+				6637F66C197C730000EF281E /* HIAppDelegate.h */,
+				6637F66D197C730000EF281E /* HIAppDelegate.m */,
+				6637F66F197C730000EF281E /* Main.storyboard */,
+				6637F672197C730000EF281E /* HIViewController.h */,
+				6637F673197C730000EF281E /* HIViewController.m */,
+				6637F675197C730000EF281E /* Images.xcassets */,
+				6637F664197C730000EF281E /* Supporting Files */,
+			);
+			path = Hisset;
+			sourceTree = "<group>";
+		};
+		6637F664197C730000EF281E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6637F665197C730000EF281E /* Hisset-Info.plist */,
+				6637F666197C730000EF281E /* InfoPlist.strings */,
+				6637F669197C730000EF281E /* main.m */,
+				6637F66B197C730000EF281E /* Hisset-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6637F682197C730000EF281E /* HissetTests */ = {
+			isa = PBXGroup;
+			children = (
+				6637F688197C730000EF281E /* HissetTests.m */,
+				6637F683197C730000EF281E /* Supporting Files */,
+			);
+			path = HissetTests;
+			sourceTree = "<group>";
+		};
+		6637F683197C730000EF281E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6637F684197C730000EF281E /* HissetTests-Info.plist */,
+				6637F685197C730000EF281E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6637F659197C72FF00EF281E /* Hisset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6637F68C197C730000EF281E /* Build configuration list for PBXNativeTarget "Hisset" */;
+			buildPhases = (
+				6637F656197C72FF00EF281E /* Sources */,
+				6637F657197C72FF00EF281E /* Frameworks */,
+				6637F658197C72FF00EF281E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hisset;
+			productName = Hisset;
+			productReference = 6637F65A197C72FF00EF281E /* Hisset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6637F67A197C730000EF281E /* HissetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6637F68F197C730000EF281E /* Build configuration list for PBXNativeTarget "HissetTests" */;
+			buildPhases = (
+				6637F677197C730000EF281E /* Sources */,
+				6637F678197C730000EF281E /* Frameworks */,
+				6637F679197C730000EF281E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6637F681197C730000EF281E /* PBXTargetDependency */,
+			);
+			name = HissetTests;
+			productName = HissetTests;
+			productReference = 6637F67B197C730000EF281E /* HissetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6637F652197C72FF00EF281E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Okolodev;
+				TargetAttributes = {
+					6637F67A197C730000EF281E = {
+						TestTargetID = 6637F659197C72FF00EF281E;
+					};
+				};
+			};
+			buildConfigurationList = 6637F655197C72FF00EF281E /* Build configuration list for PBXProject "Hisset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6637F651197C72FF00EF281E;
+			productRefGroup = 6637F65B197C72FF00EF281E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6637F659197C72FF00EF281E /* Hisset */,
+				6637F67A197C730000EF281E /* HissetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6637F658197C72FF00EF281E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637F676197C730000EF281E /* Images.xcassets in Resources */,
+				6637F668197C730000EF281E /* InfoPlist.strings in Resources */,
+				6637F671197C730000EF281E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637F679197C730000EF281E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637F687197C730000EF281E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6637F656197C72FF00EF281E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637F674197C730000EF281E /* HIViewController.m in Sources */,
+				6637F66A197C730000EF281E /* main.m in Sources */,
+				6637F66E197C730000EF281E /* HIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637F677197C730000EF281E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637F689197C730000EF281E /* HissetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6637F681197C730000EF281E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6637F659197C72FF00EF281E /* Hisset */;
+			targetProxy = 6637F680197C730000EF281E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6637F666197C730000EF281E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6637F667197C730000EF281E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6637F66F197C730000EF281E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6637F670197C730000EF281E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6637F685197C730000EF281E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6637F686197C730000EF281E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6637F68A197C730000EF281E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6637F68B197C730000EF281E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6637F68D197C730000EF281E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hisset/Hisset-Prefix.pch";
+				INFOPLIST_FILE = "Hisset/Hisset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6637F68E197C730000EF281E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hisset/Hisset-Prefix.pch";
+				INFOPLIST_FILE = "Hisset/Hisset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6637F690197C730000EF281E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hisset.app/Hisset";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hisset/Hisset-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HissetTests/HissetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6637F691197C730000EF281E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hisset.app/Hisset";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hisset/Hisset-Prefix.pch";
+				INFOPLIST_FILE = "HissetTests/HissetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6637F655197C72FF00EF281E /* Build configuration list for PBXProject "Hisset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637F68A197C730000EF281E /* Debug */,
+				6637F68B197C730000EF281E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6637F68C197C730000EF281E /* Build configuration list for PBXNativeTarget "Hisset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637F68D197C730000EF281E /* Debug */,
+				6637F68E197C730000EF281E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6637F68F197C730000EF281E /* Build configuration list for PBXNativeTarget "HissetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637F690197C730000EF281E /* Debug */,
+				6637F691197C730000EF281E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6637F652197C72FF00EF281E /* Project object */;
+}
