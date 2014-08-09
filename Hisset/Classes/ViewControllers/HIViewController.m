@@ -7,22 +7,36 @@
 //
 
 #import "HIViewController.h"
+#import "HICoverCell.h"
 
 
 @interface HIViewController ()
-
+@property (nonatomic, strong) NSArray * dataSource;
 @end
 
 
 @implementation HIViewController
 
+#pragma mark - View Lifecycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.dataSource = @[ @"Foo", @"Bar",  @"Baz" ];
+    [self registerCellClass:[HICoverCell class] forModelClass:[NSString class]];
+    [self.memoryStorage addItems:self.dataSource];
 }
 
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
+}
+
+
+#pragma mark - Collection View Delegate
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"%@", indexPath);
 }
 
 

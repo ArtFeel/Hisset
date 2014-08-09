@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DTCollectionViewController.h"
 
 
-@interface HIViewController : UIViewController
+@interface HIViewController : DTCollectionViewController
 
 @end

@@ -13,9 +13,11 @@
 		6637F668197C730000EF281E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6637F666197C730000EF281E /* InfoPlist.strings */; };
 		6637F66A197C730000EF281E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637F669197C730000EF281E /* main.m */; };
 		6637F694197C80E900EF281E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6637F692197C80E900EF281E /* Main.storyboard */; };
+		D45770E2C882383D66C3337F /* HICoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D45779020BF4CC0E2B747F0D /* HICoverCell.m */; };
 		D45770F93A2DBE166E1A3BAA /* HIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4577AF0B131004B954C4884 /* HIAppDelegate.m */; };
 		D457720AB04CDF7860AB4AB6 /* HIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45779EF2DDD30A488939755 /* HIViewController.m */; };
 		D45773B068027BCF913AFA2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4577135AACB8BE5E0F16D4A /* Images.xcassets */; };
+		D4577E8F064FF4DD20599998 /* HIStation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4577AF2CCD1FBF878285A5C /* HIStation.m */; };
 		DE0CB4FDB07C42B5BF7742E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208E0ACF5154DDEB679C258 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +35,14 @@
 		6637F693197C80E900EF281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8208E0ACF5154DDEB679C258 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4577135AACB8BE5E0F16D4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4577398E6F0FAC9862C48BA /* HICoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HICoverCell.h; sourceTree = "<group>"; };
 		D45775049B4B3BF94F7CEACD /* HIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController.h; sourceTree = "<group>"; };
+		D45775DBA7C3007BC6FE7C93 /* HIStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIStation.h; sourceTree = "<group>"; };
 		D45776D99C9DE92001478656 /* HIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIAppDelegate.h; sourceTree = "<group>"; };
+		D45779020BF4CC0E2B747F0D /* HICoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HICoverCell.m; sourceTree = "<group>"; };
 		D45779EF2DDD30A488939755 /* HIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController.m; sourceTree = "<group>"; };
 		D4577AF0B131004B954C4884 /* HIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIAppDelegate.m; sourceTree = "<group>"; };
+		D4577AF2CCD1FBF878285A5C /* HIStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIStation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,8 @@
 			children = (
 				D4577DBCC014CDB950061E85 /* AppDelegate */,
 				D4577592D2215C1BEB38B55A /* ViewControllers */,
+				D4577E416BAEBBF21F9319D2 /* Cells */,
+				D4577F6FD68B238172DCB711 /* Models */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -139,6 +147,24 @@
 				D4577AF0B131004B954C4884 /* HIAppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D4577E416BAEBBF21F9319D2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D45779020BF4CC0E2B747F0D /* HICoverCell.m */,
+				D4577398E6F0FAC9862C48BA /* HICoverCell.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D4577F6FD68B238172DCB711 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4577AF2CCD1FBF878285A5C /* HIStation.m */,
+				D45775DBA7C3007BC6FE7C93 /* HIStation.h */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +271,8 @@
 				6637F66A197C730000EF281E /* main.m in Sources */,
 				D45770F93A2DBE166E1A3BAA /* HIAppDelegate.m in Sources */,
 				D457720AB04CDF7860AB4AB6 /* HIViewController.m in Sources */,
+				D45770E2C882383D66C3337F /* HICoverCell.m in Sources */,
+				D4577E8F064FF4DD20599998 /* HIStation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +379,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Hisset/Supporting Files/Hisset-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -366,6 +395,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Hisset/Supporting Files/Hisset-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
